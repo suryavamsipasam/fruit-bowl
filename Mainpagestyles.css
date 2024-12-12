@@ -1,0 +1,58 @@
+
+
+   /* Banner Container */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #f4c6db, #d1a7e0); /* Light peach and lilac blend */
+    padding: 50px 30px;
+    border-radius: 10px;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .text-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 280px;
+  }
+ .tagline{
+    font-size: 60px;
+    padding-left: 50px;
+    /* padding-bottom: 50px; */
+    font-style: italic;
+    font-family: serif;
+    color: #ffffff; /* White text color */
+    background: linear-gradient(45deg, #ff6a00, #ffcc00); /* Solid gradient color */
+    -webkit-background-clip: text;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), 2px 2px 4px rgba(255, 255, 255, 0.3);
+ }
+
+.title{
+    font-size: 20px;
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff; /* White text color */
+    background: linear-gradient(45deg, #ff6a00, #ffcc00); /* Solid gradient color */
+    -webkit-background-clip: text;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+.title-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+  
+  /* Image Container */
+  .image-container {
+    max-width: 70%;
+    padding-left: 200px;
+  }
+  
+  .fruit-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  

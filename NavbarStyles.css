@@ -1,0 +1,86 @@
+/* NavbarStyles.css */
+
+/* Navbar Container */
+
+.logo-styles{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50%;
+}
+.custom-navbar {
+    background-color: #333; /* Dark background */
+    padding: 15px 20px; /* Add some padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Brand Name */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    font-family: serif;
+    font-style: italic;
+    color: #f9a825; /* Bright yellow */
+     font-weight: bold; 
+    text-transform: uppercase; /* Make the brand name uppercase */
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.523); /* Add text shadow */
+}
+
+/* Navigation Links */
+.nav-link {
+    font-size: 22px;
+    font-family: serif;
+   
+    color: #f9f9f9; 
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px; /* Space between links */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    left: 20px;
+}
+
+
+
+/* space between the brand and links */
+#nav-space{
+    padding-left: 5%;
+}
+/* Navigation Link Hover Effect */
+.nav-link:hover {
+    color: #f9a825; /* Change color on hover */
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Active Link Styling */
+.nav-link.active {
+    color: #f9a825; /* Highlight active link */
+    font-weight: bold;
+    border-bottom: 2px solid #f9a825; /* Underline active link */
+}
+
+/* Navbar Toggle Button (Mobile View) */
+.navbar-toggler {
+    border-color: #f9a825; /* Custom border color for toggle button */
+}
+
+.navbar-toggler-icon {
+    background-color: #f9f9f9; /* Light toggle icon */
+    border-radius: 2px;
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        margin-right: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 20px; /* Adjust brand size */
+    }}
